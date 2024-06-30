@@ -74,7 +74,7 @@ stages:
       vmImage: 'ubuntu-20.04'
     environment: spike
     variables:
-    - group: Release
+    - group: test-webapp
     strategy:
       runOnce:
         deploy:
