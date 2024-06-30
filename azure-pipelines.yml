@@ -10,8 +10,8 @@ stages:
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
-    pool:
-      vmImage: 'ubuntu-20.04'
+    pool: mylaptopagent
+      # vmImage: 'ubuntu-20.04'
       demands:
       - npm
 
