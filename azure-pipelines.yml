@@ -9,9 +9,8 @@ stages:
   displayName: 'Build the web application'
   jobs: 
   - job: 'Build'
-    displayName: 'Build job'
-    #pool: mylaptopagent
-      pool:
+    displayName: 'Build job'   
+     pool:
       vmImage: 'ubuntu-20.04'
       demands:
       - npm
