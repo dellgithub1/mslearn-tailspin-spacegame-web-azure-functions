@@ -3,10 +3,6 @@ trigger:
 
 variables:
   buildConfiguration: 'test-webapp'
-
-
-
-
 stages:
 - stage: 'Build'  displayName: 'Build the web application'
   jobs: 
